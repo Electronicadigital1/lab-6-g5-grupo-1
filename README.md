@@ -209,7 +209,9 @@ Se reprogramó la FPGA con el diseño extendido. Al variar los switches, el díg
 <img width="1200" height="1600" alt="WhatsApp Image 2026-06-21 at 10 23 10 AM" src="https://github.com/user-attachments/assets/58f2025a-b983-48a8-9d95-547a4161415e" />
 
 primer switch de arriba a abajo : reset
+
 Siguientes tres switch: bateria 2 --- 110 = 6
+
 Siguientes tres switch: bateria 1 --- 111 = 7
 ## 8. Conclusiones
 
