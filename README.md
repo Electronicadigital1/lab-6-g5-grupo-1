@@ -159,7 +159,8 @@ El sistema se compone de:
 
 Se ejecutó el testbench sobre el diseño base. La simulación mostró la correcta secuencia de inicialización: primero los cuatro comandos de configuración (`0x38`, `0x06`, `0x0C`, `0x01`) con `rs=0`, seguidos de los 16 bytes de texto para la línea 1 con `rs=1`, el comando de salto a línea 2 (`0xC0`), y finalmente los 16 bytes de la segunda línea.
 
-> 📷 *[Insertar captura de GTKWave / ModelSim mostrando señales rs, enable, data en la secuencia de inicialización]*
+<img width="943" height="201" alt="image" src="https://github.com/user-attachments/assets/59f1e93f-f908-4586-b763-92731c9c57c4" />
+
 
 #### 7.1.2 Implementación en FPGA
 
