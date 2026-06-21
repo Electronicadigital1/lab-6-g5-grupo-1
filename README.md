@@ -135,7 +135,7 @@ La FSM del controlador LCD cuenta con cinco estados:
 | `CONFIG_CMD2` | Envía el comando de salto a línea 2 (`0xC0`) |
 | `WR_STATIC_TEXT_2L` | Escribe los 16 caracteres de la línea 2 |
 
-> 📷 *[Insertar diagrama de estados de la FSM con transiciones y condiciones]*
+
 
 ### 6.2 Diagrama de bloques de la arquitectura
 
@@ -165,7 +165,8 @@ Se ejecutó el testbench sobre el diseño base. La simulación mostró la correc
 
 Se realizó la asignación de pines según la tabla de la PCB de la tarjeta y se configuró el pin 101 (`nCEO`) como I/O regular desde `Assignments → Device → Device and Pin Options → Dual-Purpose Pins`. La LCD se conectó al header J2 alineando el pin 1 de la pantalla con el pin 1 marcado en la tarjeta.
 
-> 📷 *[Insertar foto de la tarjeta FPGA con la LCD mostrando el texto estático en ambas líneas]*
+<img width="821" height="497" alt="image" src="https://github.com/user-attachments/assets/eea3dd1e-bb7b-485d-9ab1-c0b8c7746a19" />
+
 
 ### 7.2 Parte 2 – Texto dinámico
 
@@ -204,6 +205,7 @@ Se repitió la simulación con el diseño extendido, modificando el valor de `sw
 
 Se reprogramó la FPGA con el diseño extendido. Al variar los switches, el dígito en la posición 12 de cada línea se actualiza en la pantalla tras completar el ciclo de escritura.
 
+<img width="1200" height="1600" alt="WhatsApp Image 2026-06-21 at 10 23 10 AM" src="https://github.com/user-attachments/assets/58f2025a-b983-48a8-9d95-547a4161415e" />
 
 
 ## 8. Conclusiones
