@@ -199,7 +199,8 @@ El carácter dinámico se ubica en la posición 12 de cada línea, dejando los p
 
 Se repitió la simulación con el diseño extendido, modificando el valor de `sw` en el testbench para verificar que la señal `data` cambia correctamente en la posición 12 de cada línea al variar las entradas.
 
-> 📷 *[Insertar captura de simulación mostrando el cambio en `data` en la posición 12 al variar sw]*
+<img width="2260" height="231" alt="image" src="https://github.com/user-attachments/assets/ab26a8a9-b35c-4fc3-b1b2-fffed9a27173" />
+
 
 #### 7.2.4 Implementación y evidencias
 
